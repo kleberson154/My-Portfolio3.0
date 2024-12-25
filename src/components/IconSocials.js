@@ -6,7 +6,7 @@ import { Icon } from '../subcomponentes/Icon'
 
 export function IconSocials() {
   return (
-    <div className="fixed bottom-0 sm:left-14 left-4 flex flex-col items-center justify-between h-48 desktop:h-56 w-6 desktop:w-8">
+    <div className="fixed bottom-0 sm:left-14 left-4 flex flex-col items-center justify-between h-48 desktop:h-56 w-6 desktop:w-8 z-10">
       <a
         href="https://github.com/kleberson154"
         aria-label="Link para o meu github."

@@ -72,7 +72,7 @@ export default function Home() {
                 'duration-1000' + (click ? 'opacity-0' : 'opacity-100')
               }
             >
-              Click Here
+              Click Aqui
             </h2>
           </motion.button>
         </div>
