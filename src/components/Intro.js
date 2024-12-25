@@ -4,23 +4,36 @@ import Image from 'next/image'
 export const Intro = () => {
   return (
     <motion.div
-      className=""
-      initial={{ height: 0 }}
-      animate={{ height: '50vh' }}
-      transition={{ type: 'spring', duration: 0.8, delay: 0.3 }}
+      initial={{ height: 0, opacity: 0 }}
+      animate={{ height: '60vh', opacity: 1 }}
+      transition={{ type: 'spring', duration: 1, delay: 1 }}
+      className="w-full  lg:w-4/5 border-2 border-black cursor-pointer"
     >
       <motion.div
         initial={{ opacity: 0 }}
         animate={{ opacity: 1 }}
-        transition={{ duration: 0.8, delay: 0.5 }}
+        transition={{ duration: 1, duration: 1, delay: 1 }}
+        className="w-full h-full flex items-center flex-col lg:flex-row "
       >
-        <div id="subBoxOne" className="">
-          <h1>Oi,</h1>
-          <h3>Eu sou Kleberson</h3>
-          <h6>Eu crio e codifico sites simples e bonitos.</h6>
+        <div className="lg:w-1/2 md:h-full h-1/2 w-full relative flex flex-col justify-start lg:justify-center pt-8 h-1/2 text-black  gap-8 pl-8">
+          <h1 className="text-[calc(2rem+1.5vw)] lg:text-[calc(2rem+1.5vw)]">
+            Oi,
+          </h1>
+          <h3 className="text-[calc(1em+1.5vw)] lg:text-[calc(1em+1.5vw)] leading-10">
+            Eu sou Kleberson
+          </h3>
+          <h6 className="text-[calc(0.5rem+1.5vw)] lg:text-[calc(0.5rem+1.5vw)] font-light">
+            Sou desenvolvedor FullStack Javascript e Back-End Java.
+          </h6>
         </div>
-        <div id="subBoxTwo" className="">
-          <Image src="/images/profile.png" className="pic" alt="Profile Pic" />
+        <div className="md:w-1/2 md:h-full relative flex w-full h-1/2">
+          <Image
+            src="/images/profile.png"
+            width={562}
+            height={562}
+            alt="Profile Pic"
+            className="w-full h-full object-cover"
+          />
         </div>
       </motion.div>
     </motion.div>

@@ -13,6 +13,9 @@ module.exports = {
         foreground: 'var(--foreground)',
         green: {
           450: 'rgba(0, 255, 0, 0.8)'
+        },
+        white: {
+          450: '#fcf6f4'
         }
       },
       boxShadow: {
@@ -20,6 +23,12 @@ module.exports = {
       },
       screens: {
         desktop: '450px'
+      },
+      animation: {
+        'spin-slow': 'spin 4s linear infinite'
+      },
+      transitionDuration: {
+        1000: '1000ms'
       }
     }
   },
