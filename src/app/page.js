@@ -17,7 +17,7 @@ export default function Home() {
 
   const handleClick = () => setClick(!click)
   return (
-    <div className="relative w-screen h-screen overflow-hidden font-semibold text-base desktop:text-xl ">
+    <motion.div className="relative w-screen h-screen overflow-hidden font-semibold text-base desktop:text-xl ">
       <motion.div
         initial={{
           y: -200,
@@ -108,6 +108,6 @@ export default function Home() {
         <LinkAbout />
         <LinkSkills />
       </motion.div>
-    </div>
+    </motion.div>
   )
 }

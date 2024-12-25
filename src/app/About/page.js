@@ -21,7 +21,7 @@ export default function page() {
       >
         <Logo />
         <PowerButton />
-        <div />
+        <div className="w-28" />
       </motion.div>
     </div>
   )

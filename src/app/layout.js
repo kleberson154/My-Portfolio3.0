@@ -1,5 +1,6 @@
 import { Source_Code_Pro } from 'next/font/google'
 import './globals.css'
+import PageAnimatePresence from '../components/HOC/PageAnimatePrecense'
 
 const sourceCodePro = Source_Code_Pro({
   subsets: ['latin']
@@ -14,7 +15,7 @@ export default function RootLayout({ children }) {
   return (
     <html lang="pt-br">
       <body className={`${sourceCodePro.variable} antialiased`}>
-        {children}
+        <PageAnimatePresence>{children}</PageAnimatePresence>
       </body>
     </html>
   )
