@@ -25,10 +25,19 @@ module.exports = {
         desktop: '450px'
       },
       animation: {
-        'spin-slow': 'spin 4s linear infinite'
+        'spin-slow': 'spin 4s linear infinite',
+        bounce: 'bounce 4s infinite',
+        float: 'float 4s ease infinite'
       },
       transitionDuration: {
         1000: '1000ms'
+      },
+      keyframes: {
+        float: {
+          '0% ': { transform: 'translateY(-10px)' },
+          '50%': { transform: 'translateY(-55px) translateX(-15px)' },
+          '100%': { transform: 'translateY(-10px)' }
+        }
       }
     }
   },
