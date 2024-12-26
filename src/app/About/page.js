@@ -8,7 +8,7 @@ import { motion } from 'motion/react'
 
 export default function page() {
   return (
-    <div className="relative w-screen h-screen overflow-hidden font-semibold text-base desktop:text-xl flex justify-center items-center">
+    <div className="relative w-screen h-screen ssm:overflow-x-hidden font-semibold text-base desktop:text-xl flex justify-center items-center mb-20 ssm:mb-0">
       <motion.div
         initial={{
           y: -200,
@@ -38,7 +38,7 @@ export default function page() {
         <Spaceman />
       </motion.div>
       <motion.div
-        className="w-[50vw] h-auto sm:h-[70vh] border-2 border-black p-4 md:p-8 z-10 leading-normal flex justify-center items-center text-[calc(0.6rem+1vw)] lg:text-[calc(0.4rem+1vw)] italic"
+        className="absolute top-32 w-[50vw] h-auto sm:h-[70vh] border-2 border-black p-4 md:p-8 z-10 leading-normal flex justify-center items-center text-[calc(0.6rem+1vw)] lg:text-[calc(0.4rem+1vw)] italic "
         initial={{ opacity: 0 }}
         animate={{ opacity: 1 }}
         transition={{ duration: 1, delay: 1 }}
