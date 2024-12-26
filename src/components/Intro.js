@@ -13,9 +13,9 @@ export const Intro = () => {
         initial={{ opacity: 0 }}
         animate={{ opacity: 1 }}
         transition={{ duration: 1, duration: 1, delay: 1 }}
-        className="w-full h-full flex items-center flex-col lg:flex-row "
+        className="w-full h-full flex justify-between items-center flex-col lg:flex-row overflow-hidden"
       >
-        <div className="lg:w-1/2 md:h-full h-1/2 w-full relative flex flex-col justify-start lg:justify-center pt-8 h-1/2 text-black  gap-8 pl-8">
+        <div className="lg:w-1/2 md:h-full h-1/3 w-full relative flex flex-col justify-start lg:justify-center pt-8 h-1/2 text-black  lg:gap-8 pl-8">
           <h1 className="text-[calc(2rem+1.5vw)] lg:text-[calc(2rem+1.5vw)]">
             Oi,
           </h1>
@@ -26,7 +26,7 @@ export const Intro = () => {
             Sou desenvolvedor FullStack Javascript e Back-End Java.
           </h6>
         </div>
-        <div className="md:w-1/2 md:h-full relative flex w-full h-1/2">
+        <div className="mediumSm:w-1/2 md:h-full relative flex w-full h-1/2">
           <Image
             src="/images/profile.png"
             width={562}
