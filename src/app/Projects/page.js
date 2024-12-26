@@ -34,7 +34,7 @@ const container = {
 
 export default function page() {
   return (
-    <div className="relative w-screen h-screen overflow-x-hidden font-semibold text-base desktop:text-xl flex justify-center items-center ">
+    <div className="relative w-screen h-screen ssm:overflow-x-hidden font-semibold text-base desktop:text-xl flex justify-center items-center ">
       <motion.div
         initial={{
           y: -200,
@@ -55,13 +55,13 @@ export default function page() {
         variants={container}
         initial="hidden"
         animate="show"
-        className="absolute top-36 grid grid-cols-1 lg:grid-cols-2 xl:grid-cols-3 xl:items-stretch pb-8 px-16 sm:px-28 gap-12 "
+        className="absolute top-36 grid grid-cols-1 lg:grid-cols-2 xl:grid-cols-3 xl:items-stretch pb-8 ssm:px-16 sm:px-28 gap-12 "
       >
         {Work.reverse().map((item, index) => (
           <motion.div
             key={index}
             variants={Item}
-            className="w-[22rem] flex flex-col justify-between items-center border-2 border-black rounded-2xl px-6 pb-8 pt-2"
+            className=" w-[18rem] sm:w-[22rem] flex flex-col justify-between items-center border-2 border-black rounded-2xl px-6 pb-8 pt-2"
             whileHover={{ scale: 1.1 }}
           >
             <h1 className="text-xl py-2">{item.name}</h1>
