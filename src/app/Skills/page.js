@@ -3,7 +3,7 @@
 import { IconSocials } from '@/src/components/IconSocials'
 import { Logo } from '@/src/components/Logo'
 import { PowerButton } from '@/src/components/PowerButton'
-import { Design, Develope } from '../../data/AllSvg'
+import { Develope } from '../../data/AllSvg'
 import { motion } from 'motion/react'
 
 export default function page() {

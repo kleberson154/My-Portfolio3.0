@@ -197,5 +197,9 @@ export const Certificate = [
   {
     id: 13,
     image: '/images/Certs/Desc3.png'
+  },
+  {
+    id: 14,
+    image: '/images/Certs/CertHarvard.png'
   }
 ]
