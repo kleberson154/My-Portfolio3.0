@@ -114,6 +114,26 @@ export const Work = [
     tags: ['NODEJS', 'FASTIFY', 'RENDER'],
     demo: 'https://node-do-zero-1doj.onrender.com/videos',
     github: 'https://github.com/kleberson154/node-do-zero'
+  },
+  {
+    id: 13,
+    name: 'Finans',
+    image: '/images/Projects/Finans.png',
+    description:
+      'Pagina de uma impresa ficticia para treinar os conceitos de BootStrap.',
+    tags: ['BOOTSTRAP', 'HTML', 'CSS'],
+    demo: 'https://kleberson154.github.io/Finans/',
+    github: 'https://github.com/kleberson154/Finans'
+  },
+  {
+    id: 14,
+    name: 'Spotify Page',
+    image: '/images/Projects/spotify-page.png',
+    description:
+      'Recriando uma lading page antiga do Spotify com BootStrap para fins educativos.',
+    tags: ['BOOTSTRAP', 'HTML', 'CSS'],
+    demo: 'https://kleberson154.github.io/Spotify-landing/',
+    github: 'https://github.com/kleberson154/Spotify-landing'
   }
 ]
 
