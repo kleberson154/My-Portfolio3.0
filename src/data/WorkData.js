@@ -134,6 +134,55 @@ export const Work = [
     tags: ['BOOTSTRAP', 'HTML', 'CSS'],
     demo: 'https://kleberson154.github.io/Spotify-landing/',
     github: 'https://github.com/kleberson154/Spotify-landing'
+  },
+  {
+    id: 15,
+    name: 'DashBoard',
+    image: '/images/Projects/DashboardPage-min.png',
+    description: 'Recriando um design de dashboard proposto pelo OdinProjects.',
+    tags: ['HTML', 'CSS', 'MATERIAL DESIGN ICON'],
+    demo: 'https://kleberson154.github.io/dashboard/',
+    github: 'https://github.com/kleberson154/dashboard'
+  },
+  {
+    id: 16,
+    name: 'Medical Page',
+    image: '/images/Projects/MedicalPage-min.png',
+    description:
+      'Atividade pratica do Senac/Uberlandia utilizando FlexBox e Grid.',
+    tags: ['HTML', 'CSS'],
+    demo: 'https://kleberson154.github.io/MedicalPage/',
+    github: 'https://github.com/kleberson154/MedicalPage'
+  },
+  {
+    id: 17,
+    name: 'Pizza Page',
+    image: '/images/Projects/PizzaPage-min.png',
+    description:
+      'Atividade pratica do Senac/Uberlandia utilizando FlexBox e Grid.',
+    tags: ['HTML', 'CSS'],
+    demo: 'https://kleberson154.github.io/PizzaPage/',
+    github: 'https://github.com/kleberson154/PizzaPage'
+  },
+  {
+    id: 18,
+    name: 'Ocean Page',
+    image: '/images/Projects/OceanPage-min.png',
+    description:
+      'Atividade pratica do Senac/Uberlandia utilizando FlexBox e Grid.',
+    tags: ['HTML', 'CSS'],
+    demo: 'https://kleberson154.github.io/OceanPage/',
+    github: 'https://github.com/kleberson154/OceanPage'
+  },
+  {
+    id: 19,
+    name: 'Login Page',
+    image: '/images/Projects/LoginPage-min.png',
+    description:
+      'Desafio proposto a recriar um design de escolha do aluno feito pelo Senac/Uberlandia utilizando FlexBox e Grid.',
+    tags: ['HTML', 'CSS'],
+    demo: 'https://kleberson154.github.io/LoginPage/',
+    github: 'https://github.com/kleberson154/LoginPage'
   }
 ]
 
@@ -184,42 +233,54 @@ export const Certificate = [
   },
   {
     id: 12,
-    image: '/images/Certs/One5.png'
+    image: '/images/Certs/Jav3Cert.png'
   },
   {
     id: 13,
+    image: '/images/Certs/GitHubCert.png'
+  },
+  {
+    id: 14,
     image: '/images/Certs/One6.png'
   },
   {
-    id: 14,
+    id: 15,
     image: '/images/Certs/One7.png'
   },
   {
-    id: 13,
+    id: 16,
     image: '/images/Certs/One8.png'
   },
   {
-    id: 13,
+    id: 17,
     image: '/images/Certs/One9.png'
   },
   {
-    id: 13,
+    id: 18,
     image: '/images/Certs/One10.png'
   },
   {
-    id: 13,
+    id: 19,
+    image: '/images/Certs/SQLCert.png'
+  },
+  {
+    id: 20,
     image: '/images/Certs/Desc1.png'
   },
   {
-    id: 13,
+    id: 21,
     image: '/images/Certs/Desc2.png'
   },
   {
-    id: 13,
+    id: 22,
     image: '/images/Certs/Desc3.png'
   },
   {
-    id: 14,
+    id: 23,
+    image: '/images/Certs/IntoCybersecurityCert.png'
+  },
+  {
+    id: 24,
     image: '/images/Certs/CertHarvard.png'
   }
 ]
