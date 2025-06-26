@@ -5,6 +5,15 @@ import { Logo } from '@/src/components/Logo'
 import { PowerButton } from '@/src/components/PowerButton'
 import { Develope } from '../../data/AllSvg'
 import { motion } from 'motion/react'
+import Html5Original from 'react-devicons/html5/original'
+import Css3Original from 'react-devicons/css3/original'
+import JavascriptOriginal from 'react-devicons/javascript/original'
+import TypescriptOriginal from 'react-devicons/typescript/original'
+import ReactOriginal from 'react-devicons/react/original'
+import NextjsOriginal from 'react-devicons/nextjs/original'
+import TailwindcssPlain from 'react-devicons/tailwindcss/plain'
+import BootstrapOriginal from 'react-devicons/bootstrap/original'
+import SassOriginal from 'react-devicons/sass/original'
 
 export default function page() {
   return (
@@ -45,9 +54,16 @@ export default function page() {
           </p>
           <div className="text-[calc(0.2em + 1vw)]">
             <strong>HABILIDADES</strong>
-            <div className="p-0 m-0">
-              Html, Css, JavaScript, TypeScript, React, NextJs, RESTful,
-              Tailwild, Styled-Components, Bootstrap, Sass.
+            <div className="p-0 m-0 flex flex-wrap gap-2">
+              <Html5Original size="2em" />
+              <Css3Original size="2em" />
+              <JavascriptOriginal size="2em" />
+              <TypescriptOriginal size="2em" />
+              <ReactOriginal size="2em" />
+              <NextjsOriginal size="2em" />
+              <TailwindcssPlain size="2em" />
+              <BootstrapOriginal size="2em" />
+              <SassOriginal size="2em" />
             </div>
           </div>
           <div className="text-[calc(0.2em + 1vw)]">
