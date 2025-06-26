@@ -229,58 +229,82 @@ export const Certificate = [
   },
   {
     id: 11,
-    image: '/images/Certs/One4.png'
+    image: '/images/Certs/OneBootSass.png'
   },
   {
     id: 12,
-    image: '/images/Certs/Jav3Cert.png'
+    image: '/images/Certs/Jav1Cert.png'
   },
   {
     id: 13,
-    image: '/images/Certs/GitHubCert.png'
+    image: '/images/Certs/Jav2Cert.png'
   },
   {
     id: 14,
-    image: '/images/Certs/One6.png'
+    image: '/images/Certs/Jav3Cert.png'
   },
   {
     id: 15,
-    image: '/images/Certs/One7.png'
+    image: '/images/Certs/Jav4Cert.png'
   },
   {
     id: 16,
-    image: '/images/Certs/One8.png'
+    image: '/images/Certs/Jav5Cert.png'
   },
   {
     id: 17,
-    image: '/images/Certs/One9.png'
+    image: '/images/Certs/CertType.png'
   },
   {
     id: 18,
-    image: '/images/Certs/One10.png'
+    image: '/images/Certs/GitHubCert.png'
   },
   {
     id: 19,
-    image: '/images/Certs/SQLCert.png'
+    image: '/images/Certs/One9.png'
   },
   {
     id: 20,
-    image: '/images/Certs/Desc1.png'
+    image: '/images/Certs/One10.png'
   },
   {
     id: 21,
-    image: '/images/Certs/Desc2.png'
+    image: '/images/Certs/SQLCert.png'
   },
   {
     id: 22,
-    image: '/images/Certs/Desc3.png'
+    image: '/images/Certs/CertIntoNode.png'
   },
   {
     id: 23,
-    image: '/images/Certs/IntoCybersecurityCert.png'
+    image: '/images/Certs/CertWebNode.png'
   },
   {
     id: 24,
+    image: '/images/Certs/Desc1.png'
+  },
+  {
+    id: 25,
+    image: '/images/Certs/Desc2.png'
+  },
+  {
+    id: 26,
+    image: '/images/Certs/Desc3.png'
+  },
+  {
+    id: 27,
+    image: '/images/Certs/Desc4.png'
+  },
+  {
+    id: 28,
+    image: '/images/Certs/IntoCybersecurityCert.png'
+  },
+  {
+    id: 29,
     image: '/images/Certs/CertHarvard.png'
+  },
+  {
+    id: 30,
+    image: '/images/Certs/DioBradesco.png'
   }
 ]
