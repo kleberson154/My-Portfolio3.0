@@ -33,9 +33,9 @@ export default function page() {
           opacity: 1
         }}
         transition={{ duration: 1.5, delay: 1 }}
-        className="absolute top-36 flex flex-col xl:flex-row justify-between items-center xl:items-stretch pb-8 xl:px-12 gap-12 "
+        className="absolute top-36 flex flex-col xl:flex-row justify-center items-center xl:items-stretch pb-8 xl:px-12 gap-4 "
       >
-        <div className="h-full border-2 border-black p-4 flex flex-col justify-center gap-8 px-8 xl:w-1/2 lg:w-4/5 w-2/3">
+        <div className="h-full border-2 border-black p-4 flex flex-col justify-center gap-8 px-8 xl:w-2/6 lg:w-4/5 w-2/3">
           <h1 className="flex justify-center items-center gap-2 text-2xl">
             <Develope width={34} height={34} /> Front-End Developer
           </h1>
@@ -55,7 +55,7 @@ export default function page() {
             <div className="p-0 m-0">VScode, Github, Codepen etc.</div>
           </div>
         </div>
-        <div className="border-2 border-black p-4 flex flex-col justify-center gap-8 px-8 xl:w-1/2 lg:w-4/5 w-2/3">
+        <div className="border-2 border-black p-4 flex flex-col justify-center gap-8 px-8 xl:w-2/6 lg:w-4/5 w-2/3">
           <h1 className="flex justify-center items-center gap-2 text-2xl">
             <Develope width={34} height={34} /> Back-End Developer
           </h1>
