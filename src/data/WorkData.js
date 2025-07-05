@@ -210,7 +210,7 @@ export const Work = [
     image: '/images/Projects/AppListaCurso.png',
     description:
       'Atividade pratica do Senac/Uberlandia utilizando Kotlin e Android Studio.',
-    tags: ['ANDROID STUDIO', 'KOTLIN'],
+    tags: ['ANDROID STUDIO', 'KOTLIN', 'SQLITE'],
     demo: 'https://github.com/kleberson154/AppListaDeCurso',
     github: 'https://github.com/kleberson154/AppListaDeCurso'
   },
@@ -220,7 +220,7 @@ export const Work = [
     image: '/images/Projects/AppGasEta.png',
     description:
       'Atividade pratica do Senac/Uberlandia utilizando Kotlin e Android Studio.',
-    tags: ['ANDROID STUDIO', 'KOTLIN'],
+    tags: ['ANDROID STUDIO', 'KOTLIN', 'SQLITE'],
     demo: 'https://github.com/kleberson154/AppListaDeCurso',
     github: 'https://github.com/kleberson154/AppListaDeCurso'
   },
@@ -230,8 +230,8 @@ export const Work = [
     image: '/images/Projects/AppListaCompra.png',
     description:
       'Atividade pratica do Senac/Uberlandia utilizando Kotlin e Android Studio.',
-    tags: ['ANDROID STUDIO', 'KOTLIN'],
-    demo: 'https://github-production-user-asset-6210df.s3.amazonaws.com/79817657/459572837-d2f6c0b8-baf0-43eb-b7b7-342a2c89532d.webm?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAVCODYLSA53PQK4ZA%2F20250626%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20250626T183337Z&X-Amz-Expires=300&X-Amz-Signature=2f5c2d0ebb973ecbdcb39598d19ab9a8f7d692a2fd134d6e8be8a2ab5e89a4fc&X-Amz-SignedHeaders=host',
+    tags: ['ANDROID STUDIO', 'KOTLIN', 'SQLITE'],
+    demo: 'https://github.com/kleberson154/AppListaCompra',
     github: 'https://github.com/kleberson154/AppListaCompra'
   },
   {
@@ -240,9 +240,28 @@ export const Work = [
     image: '/images/Projects/AppBanco.png',
     description:
       'Atividade pratica do Senac/Uberlandia utilizando Kotlin e Android Studio.',
-    tags: ['ANDROID STUDIO', 'KOTLIN'],
-    demo: 'https://github-production-user-asset-6210df.s3.amazonaws.com/79817657/459573810-d112e072-2c52-444a-934b-a7a15ba9da85.webm?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAVCODYLSA53PQK4ZA%2F20250626%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20250626T183503Z&X-Amz-Expires=300&X-Amz-Signature=accc8ef85e7f36105dc88ae2345ce5685125f57c1648273c79afa60aef58eaf5&X-Amz-SignedHeaders=host',
+    tags: ['ANDROID STUDIO', 'KOTLIN', 'SQLITE'],
+    demo: 'https://github.com/kleberson154/AppBanco',
     github: 'https://github.com/kleberson154/AppBanco'
+  },
+  {
+    id: 26,
+    name: 'App FinWise',
+    image: '/images/Projects/AppFinWise.png',
+    description: 'App FinWise - aplicativo de gestão financeira',
+    tags: ['ANDROID STUDIO', 'KOTLIN', 'SQLITE'],
+    demo: 'https://github.com/kleberson154/AppFinWise',
+    github: 'https://github.com/kleberson154/AppFinWise'
+  },
+  {
+    id: 27,
+    name: 'App HealthTrack',
+    image: '/images/Projects/AppHealthTrack.png',
+    description:
+      'Atividade pratica do Senac/Uberlandia utilizando Kotlin e Android Studio.',
+    tags: ['ANDROID STUDIO', 'KOTLIN', 'SQLITE'],
+    demo: 'https://github.com/kleberson154/AppHealthTrack',
+    github: 'https://github.com/kleberson154/AppHealthTrack'
   }
 ]
 

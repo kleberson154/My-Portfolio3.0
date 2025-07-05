@@ -15,7 +15,7 @@ const Item = {
     scale: 1,
     transition: {
       type: 'spring',
-      duration: 0.5
+      duration: 0.2
     }
   }
 }
@@ -73,7 +73,7 @@ export default function page() {
             <p className="text-base py-3">{item.description}</p>
             <div className="border-t-2 border-black w-full flex justify-center gap-4 pt-2">
               {item.tags.map((tag, i) => (
-                <span key={i} className="text-base">
+                <span key={i} className="text-sm">
                   #{tag}
                 </span>
               ))}
